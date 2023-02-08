@@ -39,7 +39,7 @@ export default {
         tickColor: "#595A5E",
         alignTicks: false,
         tickPositioner: function (min, max) {
-          return this?.getLinearTickPositions(this?.tickInterval, min, max)?.map(e => e + 22 * 3600 * 1000)
+          return this?.getLinearTickPositions(this?.tickInterval, min, max)?.map(e => e + 12 * 3600 * 1000)
         }
       },
       credits: {
